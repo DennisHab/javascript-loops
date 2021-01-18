@@ -9,7 +9,7 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
 for (let i = 0; i < names.length; i++) {
-    names[i] = names[i] + "je"
+    names[i] += "je"
 }
 console.log(names)
 // --------------------------
@@ -23,7 +23,7 @@ const numbers = [2, 4, 5, 29, 38];
 // console.log(numbers) geeft: [ 6, 12, 15, 87, 114 ];
 
 for ( i = 0; i < numbers.length; i++) {
-    numbers[i] = numbers[i] * 3
+    numbers[i] *= 3
 }
 console.log(numbers)
 
@@ -38,7 +38,7 @@ const figures = [4, 6, 12, 34, 1];
 // console.log(figures) geeft: [ 7, 9, 15, 37, 4 ]
 
 for ( i = 0; i < figures.length; i++) {
-    figures[i] = figures[i] + 3
+    figures[i] += 3
 }
 console.log(figures)
 
